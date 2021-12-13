@@ -12,14 +12,10 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:layout_margin="4dp"
-       android:layout_marginStart=""
-       android:layout_marginTop=""
-       android:layout_marginEnd=""
-       android:layout_marginBottom=""
        android:hint="Search Your Crypto"
        android:minHeight="48dp"
        android:textColor="@color/white"
-       android:textColorHint="@color/white" />
+     android:textColorHint="@color/white" />
 
    <androidx.recyclerview.widget.RecyclerView
        android:layout_width="match_parent"
