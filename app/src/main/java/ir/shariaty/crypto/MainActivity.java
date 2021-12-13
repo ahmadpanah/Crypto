@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }){
             @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
+            public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap();
                 headers.put("X-CMC_PRO_API_KEY","78604794-4f07-4f17-96e8-ab7d4e6bd42c");
                 return headers;
